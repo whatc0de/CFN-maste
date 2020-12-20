@@ -1,0 +1,6 @@
+seed -> 1055 dataset_name -> trec remove_punctuation -> 0 stem -> 0 clean -> 1 clean_sentence -> 1 max_len -> 100 network_type -> local_mixture ngram_value -> 1,2,3,4 measurement_size -> 100 pooling_type -> max match_type -> pairwise margin -> 0.1 distance_type -> 7 train_verbose -> 1 batch_size -> 16 epochs -> 100 dropout_rate_embedding -> 0.9 dropout_rate_probs -> 0.8 lr -> 0.5 embedding_size -> 50
+     map_dev   mrr_dev    p1_dev  map_test  mrr_test   p1_test
+47  0.676923  0.710043  0.551282  0.662627  0.706111  0.550562
+_________________________
+
+
